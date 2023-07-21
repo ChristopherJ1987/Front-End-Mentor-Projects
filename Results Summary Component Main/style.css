@@ -1,11 +1,4 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    margin: 0.5rem auto 0.5rem;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
+/* Mobile Version */
 @media only screen and (max-width: 600px) {
     * {
         margin: 0;
@@ -114,5 +107,43 @@
         padding: 1rem 8.5rem 1rem;
         color: hsl(0, 0%, 100%);
         background-color: hsl(224, 30%, 27%);
+    }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin: 0.5rem auto 0.5rem;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+/* Desktop Version */
+@media (min-width: 1025px) /* and (max-width: 1280px) */ {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Hanken Grotesk';
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+    .result {
+        text-align: center;
+        border-radius: 2rem;
+        color: hsl(0, 0%, 100%);
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+    .summary {
+        
+    }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin: 0.5rem auto 0.5rem;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
     }
 }
