@@ -126,17 +126,61 @@
         font-family: 'Hanken Grotesk';
     }
     .card {
+        height: 95vh;
         display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        align-items: center;
         flex-direction: row;
     }
     .result {
+        padding: 1rem;
+        max-width: 300px;
         text-align: center;
         border-radius: 2rem;
         color: hsl(0, 0%, 100%);
         background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     }
+    .result h3 {
+        font-weight: 800;
+        font-size: larger;
+        padding: 1rem 1rem 0.5rem;
+        color: hsla(0, 0%, 100%, 0.9);
+    }
+    #resultHeader {
+        padding: 1.5rem;
+        font-weight: 500;
+        color: hsl(241, 100%, 89%);
+    }
+    .score {
+        padding: 1rem;
+        max-width: 44%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    }
+    .score h1 {
+        font-weight: 800;
+        font-size: 3.5rem;
+        color: hsl(0, 0%, 100%);
+    }
+    .score p {
+        font-weight: 500;
+        font-size: medium;
+        color: hsla(241, 100%, 89%, 0.75);
+    }
+    #resultP {
+        font-weight: 500;
+        font-size: medium;
+        padding: 0 2.5rem 2rem;
+        color: hsla(241, 100%, 89%, 0.75);
+    }
     .summary {
-        
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
     }
     .attribution {
         font-size: 11px;
