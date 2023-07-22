@@ -1,0 +1,41 @@
+.projectsHeader {
+    padding: 4rem;
+    text-align: center;
+}
+.projects {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 4rem;
+    max-width: 1280px;
+    margin-bottom: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.project {
+    border-radius: 2px;
+    background: slategray;
+}
+.projectImage {
+    width: 100%;
+    object-fit: cover;
+    height: calc(100% - 6.8rem);
+}
+.projectTitle {
+    color: #fff;
+    padding: 1rem;
+    font-size: 24px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.code {
+    color: slategray;
+    transition: color 0.3s ease-out;
+}
+.project:hover {
+    .code {
+        color: orange;
+        transition: color 0.3s ease-out;
+    }
+}
