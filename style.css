@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 .header {
+    opacity: 0.95;
     min-height: 10rem;
     background: url("./images/world.jpg");
 }
