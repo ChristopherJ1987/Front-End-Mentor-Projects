@@ -1,2 +1,21 @@
-.attribution { font-size: 11px; text-align: center; }
+* {
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+}
 .attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; }
+
+/* Mobile Version */
+@media only screen and (max-width: 600px) {
+    .productCard {
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .productCard img {
+        width: 100%;
+    }
+    .cardInfo {
+        background-color: hsl(0, 0%, 100%);
+    }
+}
