@@ -2,6 +2,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; }
 .header {
     opacity: 0.95;
     min-height: 10rem;
