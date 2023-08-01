@@ -85,3 +85,10 @@
         margin-right: 1rem;
     }
 }
+
+/* Desktop Version */
+@media (min-width: 1025px) {
+    body {
+        background-color: hsl(30, 38%, 92%);
+    }
+}
