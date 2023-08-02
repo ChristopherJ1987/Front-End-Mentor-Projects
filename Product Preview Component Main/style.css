@@ -91,4 +91,85 @@
     body {
         background-color: hsl(30, 38%, 92%);
     }
+    .productCard {
+        width: 50%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 13rem;
+        flex-direction: row;
+    }
+    .productCard img {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+    .cardImage img {
+        margin: 0;
+        padding: 0;
+        height: 50%;
+    }
+    .cardInfo {
+        height: 28.25rem;
+        min-width: 19.25rem;
+        margin-left: -300px;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        background-color: hsl(0, 0%, 100%);
+    }
+    #product {
+        font-weight: 500;
+        letter-spacing: 0.5rem;
+        color: hsl(228, 12%, 48%);
+        padding: 2rem 2rem 0.75rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #productTitle {
+        padding: 0 2rem 0.5rem;
+        font-family: 'Fraunces', serif;
+    }
+    #productInfo {
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        padding: 0.5rem 2rem 0.5rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .price {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.5rem 2rem 1rem;
+    }
+    #salePrice {
+        font-weight: lighter;
+        color: hsl(158, 36%, 37%);
+        font-family: 'Fraunces', serif;
+    }
+    #price {
+        padding: 1rem;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .cartButton {
+        display: flex;
+    }
+    button {
+        border: 0;
+        width: 80%;
+        display: flex;
+        padding: 1rem;
+        margin-left: auto;
+        text-align: center;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+        justify-content: center;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Montserrat', sans-serif;
+        background-color: hsl(158, 36%, 37%);
+    }
+    svg {
+        margin-right: 1rem;
+    }
 }

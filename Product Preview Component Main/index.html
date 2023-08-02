@@ -10,7 +10,11 @@
 <body>
   <div class="productCard">
     <div class="cardImage">
-      <img src="images/image-product-mobile.jpg" alt="product image">
+      <picture>
+        <source srcset="./images/image-product-mobile.jpg" media="(max-width: 600px)">
+        <source srcset="./images/image-product-desktop.jpg" media="(max-width: 1500px)">
+        <img src="images/image-product-mobile.jpg" alt="product image">
+      </picture>
     </div>
     <div class="cardInfo">
       <h4 id="product">PERFUME</h4>
