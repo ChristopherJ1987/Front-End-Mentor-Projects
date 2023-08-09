@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Version */
+@media only screen and (max-width: 600px) {
+    body {
+        background: hsl(225, 9%, 9%);
+    }
+    .cardHolder {
+        display: flex;
+    }
+    .ratingCard {
+        display: flex;
+        flex-direction: column;
+    }
+    .ratingCard img {
+        width: 4%;
+        padding: 7px;
+        border-radius: 50%;
+        background: hsl(213, 19%, 18%);
+    }
+    .ratingCardHeader {
+        font-weight: 700;
+        color: hsl(84, 12%, 92%);
+        font-family: 'Overpass', sans-serif;
+    }
+    .ratingCardDescription {
+        font-size: 15px;
+        font-weight: 400;
+        color: hsla(84, 12%, 92%, 0.5);
+        font-family: 'Overpass', sans-serif;
+    }
+}
