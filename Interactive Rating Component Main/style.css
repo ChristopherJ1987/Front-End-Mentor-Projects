@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 .attribution {
+    color: hsla(84, 12%, 92%, 0.5);
     font-size: 11px; text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsla(38, 77%, 69%, 0.5);
 }
 
 /* Mobile Version */
@@ -15,6 +16,7 @@
     .cardHolder {
         display: flex;
     }
+    /* Rating Card Start */
     .ratingCard {
         display: flex;
         border-radius: 0.8rem;
@@ -80,4 +82,49 @@
         background: rgb(236, 125, 53);
         font-family: 'Overpass', sans-serif;
     }
+    /* Rating Card End */
+    /* Thank You Card Start */
+    .thankYouCard {
+        display: flex;
+        border-radius: 0.8rem;
+        flex-direction: column;
+        padding: 2rem 2rem 1.5rem;
+        background: linear-gradient(rgb(36, 41, 50), rgb(25, 30, 39));
+    }
+    .thankYouCard img {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ratingSelection {
+        padding: 1rem;
+        font-size: 15px;
+        font-weight: 400;
+        width: fit-content;
+        text-align: center;
+        border-radius: 50px;
+        color: rgb(236, 125, 53);
+        margin: 2rem auto 1rem auto;
+        background: rgb(49, 59, 68);
+        font-family: 'Overpass', sans-serif;
+    }
+    .thankYouHeader {
+        margin: 0;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 1px;
+        padding: 1rem 0 1rem;
+        color: hsl(84, 12%, 92%);
+        font-family: 'Overpass', sans-serif;
+    }
+    .thankYouDescription {
+        margin: 0;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        padding: 0.5rem 0 1rem;
+        color: hsla(84, 12%, 92%, 0.5);
+        font-family: 'Overpass', sans-serif;
+    }
+    /* Thank You Card End */
 }
