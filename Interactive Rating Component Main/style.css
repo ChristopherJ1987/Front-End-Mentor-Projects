@@ -15,6 +15,7 @@
     }
     .cardHolder {
         display: flex;
+        margin: 20vh 1rem 0 1rem;
     }
     /* Rating Card Start */
     .ratingCard {
@@ -28,7 +29,8 @@
         width: 5%;
         padding: 11px;
         border-radius: 50%;
-        margin-left: -0.25rem;
+        margin-top: 0.55rem;
+        margin-left: -0.18rem;
         background: rgb(49, 59, 68);
     }
     .ratingCardHeader {
@@ -41,14 +43,17 @@
     }
     .ratingCardDescription {
         margin: 0;
-        font-size: 15px;
+        font-size: 13.75px;
         font-weight: 400;
         padding: 0 0 1.25rem;
         color: hsla(84, 12%, 92%, 0.5);
         font-family: 'Overpass', sans-serif;
     }
     .ratingScale {
-        padding: 0.75rem 0.76rem 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0.75rem 0 0.5rem;
     }
     .ratingScale input[type="radio"] {
         width: 0;
@@ -56,15 +61,18 @@
         position: fixed;
     }
     .ratingScale label {
-        margin: 1rem;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 400;
         border-radius: 50%;
-        margin-left: -0.25rem;
-        padding: 0.75rem 1rem 0.75rem; 
+        margin: 0 0 0 0;
+        padding: 1rem 1.27rem 1rem; 
         background: rgb(49, 59, 68);
         color: hsla(84, 12%, 92%, 0.5);
         font-family: 'Overpass', sans-serif;
+    }
+    .ratingScale label:hover {
+        color: rgb(49, 59, 68);
+        background: hsla(84, 12%, 92%, 0.5);
     }
     #ratingButton {
         width: 100%;
@@ -85,7 +93,7 @@
     /* Rating Card End */
     /* Thank You Card Start */
     .thankYouCard {
-        display: flex;
+        display: none;
         border-radius: 0.8rem;
         flex-direction: column;
         padding: 2rem 2rem 1.5rem;
