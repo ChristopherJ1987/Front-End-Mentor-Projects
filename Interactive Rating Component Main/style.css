@@ -149,7 +149,7 @@
         display: flex;
         border-radius: 0.8rem;
         flex-direction: column;
-        padding: 1.25rem 1.75rem 1.25rem;
+        padding: 1.25rem 1.5rem 1.25rem;
         background: linear-gradient(rgb(36, 41, 50), rgb(25, 30, 39));
     }
     .ratingCard img {
@@ -175,6 +175,8 @@
         font-family: 'Overpass', sans-serif;
     }
     .ratingScale {
+        display: flex;
+        justify-content: center;
         padding: 1.35rem 0 1rem;
     }
     .ratingScale input[type="radio"] {
@@ -216,11 +218,11 @@
     /* Rating Card End */
     /* Thank You Card Start */
     .thankYouCard {
-        width: 23%;
+        width: 23.25%;
         display: flex;
         border-radius: 0.8rem;
         flex-direction: column;
-        padding: 2rem 1rem 1.5rem;
+        padding: 2rem 1.25rem 1.5rem;
         background: linear-gradient(rgb(36, 41, 50), rgb(25, 30, 39));
     }
     .thankYouCard img {
