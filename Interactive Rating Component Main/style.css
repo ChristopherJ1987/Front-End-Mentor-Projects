@@ -176,8 +176,8 @@
     }
     .ratingScale {
         display: flex;
-        justify-content: center;
         padding: 1.35rem 0 1rem;
+        justify-content: space-between;
     }
     .ratingScale input[type="radio"] {
         width: 0;
