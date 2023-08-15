@@ -101,6 +101,7 @@
         margin-right: auto;
     }
     .ratingSelection {
+        display: flex;
         padding: 1rem;
         font-size: 15px;
         font-weight: 400;
@@ -110,6 +111,7 @@
         color: rgb(236, 125, 53);
         margin: 2rem auto 1rem auto;
         background: rgb(49, 59, 68);
+        justify-content: space-between;
         font-family: 'Overpass', sans-serif;
     }
     .thankYouHeader {
