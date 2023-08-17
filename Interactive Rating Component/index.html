@@ -9,12 +9,12 @@
 </head>
 <body>
   <!-- Rating state start -->
-  <div class="cardHolder">
+  <div class="ratingCardHolder">
     <div class="ratingCard">
-      <img src="/Interactive Rating Component Main/images/icon-star.svg" alt="star">
+      <img src="./images/icon-star.svg" alt="star">
       <h2 class="ratingCardHeader">How did we do?</h2>
       <p class="ratingCardDescription">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-      <form action="post">
+      <form action="post" class="form">
         <div class="ratingScale">
           <input type="radio" name="rating" id="1" value="1">
           <label for="1">1</label>
@@ -33,14 +33,14 @@
   </div>
   <!-- Rating state end -->
   <!-- Thank you state start -->
-  <div class="cardHolder">
+  <template class="thankYouCardHolder">
     <div class="thankYouCard">
-      <img src="/Interactive Rating Component Main/images/illustration-thank-you.svg" alt="thank you image">
-      <p class="ratingSelection">You selected <!-- Add rating here --> out of 5</p>
+      <img src="./images/illustration-thank-you.svg" alt="thank you image">
+      <p class="ratingSelection">You selected {{ rating }} out of 5</p>
       <h2 class="thankYouHeader">Thank you!</h2>
       <p class="thankYouDescription">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
     </div>
-  </div>
+  </template>
   <!-- Thank you state end -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

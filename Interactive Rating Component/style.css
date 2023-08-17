@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 .attribution {
+    padding: 2rem;
     color: hsla(84, 12%, 92%, 0.5);
     font-size: 11px; text-align: center;
 }
@@ -13,7 +14,7 @@
     body {
         background: rgb(20, 21, 24);
     }
-    .cardHolder {
+    .ratingCardHolder {
         display: flex;
         margin: 20vh 1rem 0 1rem;
     }
@@ -69,6 +70,10 @@
         color: rgb(49, 59, 68);
         background: hsla(84, 12%, 92%, 0.5);
     }
+    .ratingScale label:checked {
+        color: rgb(250, 233, 202);
+        background: rgb(236, 125, 53);
+    }
     #ratingButton {
         width: 100%;
         height: 2.5rem;
@@ -89,7 +94,7 @@
     /* Rating Card End */
     /* Thank You Card Start */
     .thankYouCard {
-        display: none;
+        display: flex;
         border-radius: 0.8rem;
         flex-direction: column;
         padding: 2rem 2rem 1.5rem;
@@ -140,7 +145,7 @@
     body {
         background: rgb(20, 21, 24);
     }
-    .cardHolder {
+    .ratingCardHolder {
         display: flex;
         margin-top: 25vh;
         justify-content: center;
@@ -199,6 +204,10 @@
     .ratingScale label:hover {
         color: rgb(49, 59, 68);
         background: hsla(84, 12%, 92%, 0.5);
+    }
+    .ratingScale label:focus:active {
+        color: rgb(250, 233, 202);
+        background: rgb(236, 125, 53);
     }
     #ratingButton {
         width: 100%;
