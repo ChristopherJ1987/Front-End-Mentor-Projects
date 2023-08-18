@@ -65,12 +65,13 @@
         background: rgb(49, 59, 68);
         color: hsla(84, 12%, 92%, 0.5);
         font-family: 'Overpass', sans-serif;
+        transition: background 0.15s linear, color 0.15s linear;
     }
     .ratingScale label:hover {
         color: rgb(49, 59, 68);
         background: hsla(84, 12%, 92%, 0.5);
     }
-    .ratingScale label:checked {
+    input:checked + .control {
         color: rgb(250, 233, 202);
         background: rgb(236, 125, 53);
     }
@@ -90,6 +91,12 @@
         background: rgb(236, 125, 53);
         font-family: 'Overpass', sans-serif;
         border: 0.25px solid rgb(49, 59, 68);
+        transition: background 0.15s linear, color 0.15s linear;
+    }
+    #ratingButton:is(:hover, :focus-visible) {
+        outline: none;
+        color: rgb(236, 125, 53);
+        background: rgb(250, 233, 202);
     }
     /* Rating Card End */
     /* Thank You Card Start */
@@ -200,12 +207,13 @@
         background: rgb(49, 59, 68);
         color: hsla(84, 12%, 92%, 0.5);
         font-family: 'Overpass', sans-serif;
+        transition: background 0.15s linear, color 0.15s linear;
     }
     .ratingScale label:hover {
         color: rgb(49, 59, 68);
         background: hsla(84, 12%, 92%, 0.5);
     }
-    .ratingScale label:focus:active {
+    input:checked + .control {
         color: rgb(250, 233, 202);
         background: rgb(236, 125, 53);
     }
@@ -225,6 +233,12 @@
         background: rgb(236, 125, 53);
         font-family: 'Overpass', sans-serif;
         border: 0.25px solid rgb(49, 59, 68);
+        transition: background 0.15s linear, color 0.15s linear;
+    }
+    #ratingButton:is(:hover, :focus-visible) {
+        outline: none;
+        color: rgb(236, 125, 53);
+        background: rgb(250, 233, 202);
     }
     /* Rating Card End */
     /* Thank You Card Start */
