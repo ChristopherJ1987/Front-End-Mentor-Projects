@@ -60,7 +60,7 @@
         color: var(--softBlue);
     }
     #clockImage, #ethereumImage {
-        margin-right: 5px;
+        margin-right: 7px;
     }
     #cardInfo {
         margin: 0;
