@@ -28,6 +28,14 @@
     html {
         background-color: var(--darkBlueMain);
     }
+    .component {
+        top: 50%;
+        max-width: 95.5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        transform: translate(0, -50%);
+    }
     .card {
         display: flex;
         padding: 1.5rem;
