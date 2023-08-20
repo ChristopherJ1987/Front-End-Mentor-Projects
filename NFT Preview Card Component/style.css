@@ -30,6 +30,7 @@
     }
     .component {
         top: 50%;
+        padding: 1.5rem;
         max-width: 95.5%;
         margin-left: auto;
         margin-right: auto;
@@ -69,6 +70,12 @@
     }
     #clockImage, #ethereumImage {
         margin-right: 7px;
+    }
+    hr {
+        width: 100%;
+        height: 2px;
+        border: none;
+        background-color: var(--darkBlueLine);
     }
     #cardInfo {
         margin: 0;
