@@ -134,6 +134,26 @@
         z-index: 5;
         background-color: var(--cyan, 0.7%);
     }
+    .image {
+        position: relative;
+    }
+    .overlay {
+        opacity: 0;
+        position: absolute;
+        transition: all 0.4s ease;
+    }
+    .image:hover .overlay {
+        opacity: 0.5;
+    }
+    .fadeEffect {
+        top: 0;
+        left: 100px;
+        width: 99%;
+        height: 99%;
+        border-radius: 0.75rem;
+        transform: translateX(-21.25%);
+        background-color: var(--cyan);
+    }
     h2 {
         cursor: pointer;
         font-weight: 600;
