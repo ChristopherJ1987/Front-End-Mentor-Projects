@@ -139,6 +139,9 @@
         font-weight: 600;
         color: var(--white);
     }
+    h2:hover {
+        color: var(--cyan);
+    }
     .priceAndTime {
         display: flex;
         padding: 1.5rem 0;
@@ -184,6 +187,9 @@
     .creatorName {
         cursor: pointer;
         color: var(--white);
+    }
+    .creatorName:hover {
+        color: var(--cyan);
     }
 }
 /* Desktop Version End */
