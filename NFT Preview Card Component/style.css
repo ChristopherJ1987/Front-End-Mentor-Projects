@@ -124,14 +124,12 @@
     }
     #equilibriumImage {
         width: 99%;
-        z-index: 0;
         cursor: pointer;
         margin-left: auto;
         margin-right: auto;
         border-radius: 0.75rem;
     }
     #equlibriumImage:hover {
-        z-index: 5;
         background-color: var(--cyan, 0.7%);
     }
     .image {
@@ -139,6 +137,7 @@
     }
     .overlay {
         opacity: 0;
+        cursor: pointer;
         position: absolute;
         transition: all 0.4s ease;
     }
@@ -153,6 +152,13 @@
         border-radius: 0.75rem;
         transform: translateX(-21.25%);
         background-color: var(--cyan);
+    }
+    #viewImage {
+        top: 44%;
+        left: 44%;
+        height: 14%;
+        fill: var(--white);
+        position: relative;
     }
     h2 {
         cursor: pointer;
