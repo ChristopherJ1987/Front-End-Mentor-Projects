@@ -54,6 +54,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-First Workflow
+- JavaScript
 
 ### What I Learned
 
