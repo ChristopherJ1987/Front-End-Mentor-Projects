@@ -48,10 +48,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built With
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Semantic HTML5 Markup
+- CSS Custom Properties
 - Flexbox
-- Mobile-first workflow
+- Mobile-First Workflow
 
 ### What I Learned
 
