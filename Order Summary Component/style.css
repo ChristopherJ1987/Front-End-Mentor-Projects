@@ -65,7 +65,38 @@ html {
         padding: 0 1rem;
         border-radius: 1rem;
         flex-direction: row;
+        align-items: center;
         justify-content: space-between;
-        background-color: var(--paleBlue);
+        background-color: hsla(225, 100%, 94%, 0.325);
+    }
+    .orderPlanLeft {
+        display: flex;
+        margin-right: 10px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .musicIcon {
+        width: auto;
+        height: 20%;
+        margin: 1rem 0;
+        margin-right: 13px;
+    }
+    .pricePlan > * {
+        margin: 0;
+    }
+    .changePlan {
+        margin: 0;
+        color: var(--brightBlue);
+        text-decoration: underline;
+    }
+    .typeOfPlan {
+        font-weight: 700;
+        color: var(--darkBlue);
+    }
+    .costOfPlan {
+        opacity: 0.5;
+        font-weight: 500;
+        color: var(--darkBlue);
     }
 }
