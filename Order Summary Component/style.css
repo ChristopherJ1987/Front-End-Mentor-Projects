@@ -20,3 +20,8 @@ font-weight: 900;
     --desaturatedBlue: hsl(225, 100%, 98%);
     --darkBlue: hsl(223, 47%, 23%);
 }
+
+/* Mobile Design */
+html {
+    background-color: var(--paleBlue);
+}
