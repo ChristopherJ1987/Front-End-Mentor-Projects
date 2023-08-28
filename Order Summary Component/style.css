@@ -7,21 +7,65 @@ font-weight: 700;
 font-weight: 900;
 */
 
-.attribution {
-    font-size: 11px; text-align: center;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 :root {
+    --darkBlue: hsl(223, 47%, 23%);
     --paleBlue: hsl(225, 100%, 94%);
     --brightBlue: hsl(245, 75%, 52%);
     --desaturatedBlue: hsl(225, 100%, 98%);
-    --darkBlue: hsl(223, 47%, 23%);
+}
+.attribution {
+    padding: 1rem;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: var(--darkBlue);
+}
+html {
+    background-color: var(--paleBlue);
 }
 
 /* Mobile Design */
-html {
-    background-color: var(--paleBlue);
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        padding: 10px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    .orderCard {
+        font-size: 16px;
+        border-radius: 1rem;
+        background-color: var(--desaturatedBlue);
+        font-family: 'Red Hat Display', sans-serif;
+    }
+    .heroImage {
+        width: 100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .title {
+        opacity: 0.95;
+        font-weight: 700;
+        text-align: center;
+        color: var(--darkBlue);
+    }
+    .description {
+        opacity: 0.5;
+        padding: 0 1rem;
+        font-weight: 500;
+        text-align: center;
+        color: var(--darkBlue);
+    }
+    .orderPlan {
+        margin: 1rem;
+        display: flex;
+        padding: 0 1rem;
+        border-radius: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--paleBlue);
+    }
 }
