@@ -83,7 +83,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful Resources
 
 - [HubSpot](https://blog.hubspot.com/website/center-div-css) - I have used this link in almost every project to horizontally and vertically center a div so I thought I would put it in the resource section whil I was thinking about it with this project.
-- [EWebflow](https://discourse.webflow.com/t/how-to-change-svg-colors/114001) - This showed me how to alter the svg code slightly so I can change the fill color.
+- [Webflow](https://discourse.webflow.com/t/how-to-change-svg-colors/114001) - This showed me how to alter the svg code slightly so I can change the fill color.
+- [CSS Tricks](https://css-tricks.com/snippets/css/css-box-shadow/) - This was a great resource for helping me get the box shadow I wanted.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
