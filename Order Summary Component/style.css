@@ -40,6 +40,7 @@ html {
         border-radius: 1rem;
         background-color: var(--desaturatedBlue);
         font-family: 'Red Hat Display', sans-serif;
+        box-shadow: 0 15px 15px -10px var(--darkBlue);
     }
     .heroImage {
         width: 100%;
@@ -87,6 +88,7 @@ html {
     }
     .changePlan {
         margin: 0;
+        font-weight: 700;
         color: var(--brightBlue);
         text-decoration: underline;
     }
@@ -98,5 +100,32 @@ html {
         opacity: 0.5;
         font-weight: 500;
         color: var(--darkBlue);
+    }
+    .submit {
+        width: 90%;
+        border: none;
+        margin: 1rem;
+        padding: 1rem;
+        display: block;
+        font-weight: 700;
+        border-radius: 1rem;
+        color: var(--desaturatedBlue);
+        background-color: var(--brightBlue);
+        font-family: 'Red Hat Display', sans-serif;
+        box-shadow: 0 15px 15px -10px var(--darkBlue);
+    }
+    .cancel {
+        width: 90%;
+        border: none;
+        opacity: 0.5;
+        margin: 1rem;
+        padding: 1rem;
+        display: block;
+        font-weight: 700;
+        border-radius: 1rem;
+        color: var(--darkBlue);
+        padding-bottom: 1.66rem;
+        background-color: var(--desaturatedBlue);
+        font-family: 'Red Hat Display', sans-serif;
     }
 }
