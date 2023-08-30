@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-/*
-font-family: 'Red Hat Display', sans-serif;
-font-size: 16px;
-font-weight: 500;
-font-weight: 700;
-font-weight: 900;
-*/
 
 :root {
+    --hover: rgb(115,112,233);
     --darkBlue: hsl(223, 47%, 23%);
     --paleBlue: hsl(225, 100%, 94%);
     --brightBlue: hsl(245, 75%, 52%);
@@ -211,6 +205,10 @@ font-weight: 900;
         color: var(--brightBlue);
         text-decoration: underline;
     }
+    .changePlan:hover {
+        cursor: pointer;
+        color: var(--hover);
+    }
     .typeOfPlan {
         font-weight: 700;
         color: var(--darkBlue);
@@ -233,6 +231,10 @@ font-weight: 900;
         font-family: 'Red Hat Display', sans-serif;
         box-shadow: 0 15px 15px -10px var(--darkBlue);
     }
+    .submit:hover {
+        cursor: pointer;
+        background-color: var(--hover);
+    }
     .cancel {
         width: 90%;
         border: none;
@@ -246,5 +248,10 @@ font-weight: 900;
         padding-bottom: 1.66rem;
         background-color: var(--desaturatedBlue);
         font-family: 'Red Hat Display', sans-serif;
+    }
+    .cancel:hover {
+        opacity: 1;
+        cursor: pointer;
+        color: var(--darkBlue);
     }
 }
