@@ -30,6 +30,8 @@ Users should be able to:
 
 ![](./design/desktop-design.jpg)
 
+I am using the images provided in the design folder for screenshot images. When I used my own screenshots they all had different sizes and warped the grid i had layed out on my homepage. The images provided in the design folder are close enough to what I have made to not notice the difference, and allow a more pleasing user experience.
+
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
@@ -38,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Order Summary Component Solution](https://transcendent-kitsune-6a71ee.netlify.app/order%20summary%20component/)
+- Live Site URL: [Front End Mentor Challenges](https://transcendent-kitsune-6a71ee.netlify.app/)
 
 ## My Process
 
@@ -52,33 +54,49 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I Learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I worked more with svg files, and I leanered how to work with their fill color and size. I spent more time working with positioning and flex items, thinking about how to structure the project, and I still had some things to go back and add to the structure. It was easier to write CSS for this project because of the time I spent thinking about and laying out the HTML structure.
 
-To see how you can add code snippets, see below:
-
+HTML:
+- the code below is the part I had to go back and add in after I planned out my HTML. The spacing required an extra div that I didn't originally plan for, but besides that the reason I like this code is because this HTML plus the CSS I added allows me to make both display: flex; ** I never used to think of this, and now I just do it which is progress ** and this makes setting responsive spacing super easy.
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <div class="orderPlan">
+    <div class="orderPlanLeft">
+      <img src="./images/icon-music.svg" alt="music icon" class="musicIcon">
+      <div class="pricePlan">
+        <p class="typeOfPlan">Annual Plan</p>
+        <p class="costOfPlan">$59.99/year</p>
+      </div>
+    </div>
+    <p class="changePlan">Change</p>
+  </div>
 ```
+CSS:
+- the code below is the double display: flex; I mentioned above with the HTML code snippet. I used to get so tripped up over how to use display: flex; and I'm so happy that I am using it more easily and correctly in my projects.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  .orderPlan {
+      margin: 1rem;
+      display: flex;
+      padding: 0 1rem;
+      border-radius: 1rem;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: hsla(225, 100%, 94%, 0.325);
+  }
+  .orderPlanLeft {
+      display: flex;
+      margin-right: 10px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+  }
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued Development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I just realized that I may be using rem when I should really be using px for certain things in my CSS code, and I want to be more aware of that going forward. This project was really nice, and I am going to look for the next project to keep my skills fresh while learning new skills.
 
 ### Useful Resources
 
@@ -86,18 +104,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Webflow](https://discourse.webflow.com/t/how-to-change-svg-colors/114001) - This showed me how to alter the svg code slightly so I can change the fill color.
 - [CSS Tricks](https://css-tricks.com/snippets/css/css-box-shadow/) - This was a great resource for helping me get the box shadow I wanted.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Portfolio - [Christopher J](https://clever-sunburst-739be9.netlify.app/)
+- Frontend Mentor Profile - [@ChristopherJ1987](https://www.frontendmentor.io/profile/ChristopherJ1987)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I want to thank whoever created Front End Mentor, and Chris Thompson who was my teacher at the Coding Dojo in Dallas.
