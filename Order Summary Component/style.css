@@ -21,12 +21,14 @@ font-weight: 900;
 .attribution a {
     color: var(--darkBlue);
 }
-html {
-    background-color: var(--paleBlue);
-}
 
 /* Mobile Design */
 @media only screen and (max-width: 600px) {
+    body {
+        height: 100vh;
+        background-color: var(--paleBlue);
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
     .wrapper {
         top: 50%;
         left: 50%;
@@ -59,6 +61,123 @@ html {
         font-weight: 500;
         text-align: center;
         color: var(--darkBlue);
+    }
+    .orderPlan {
+        margin: 1rem;
+        display: flex;
+        padding: 0 1rem;
+        border-radius: 1rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: hsla(225, 100%, 94%, 0.325);
+    }
+    .orderPlanLeft {
+        display: flex;
+        margin-right: 10px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .musicIcon {
+        width: auto;
+        height: 20%;
+        margin: 1rem 0;
+        margin-right: 13px;
+    }
+    .pricePlan > * {
+        margin: 0;
+    }
+    .changePlan {
+        margin: 0;
+        font-weight: 700;
+        color: var(--brightBlue);
+        text-decoration: underline;
+    }
+    .typeOfPlan {
+        font-weight: 700;
+        color: var(--darkBlue);
+    }
+    .costOfPlan {
+        opacity: 0.5;
+        font-weight: 500;
+        color: var(--darkBlue);
+    }
+    .submit {
+        width: 90%;
+        border: none;
+        margin: 1rem;
+        padding: 1rem;
+        display: block;
+        font-weight: 700;
+        border-radius: 1rem;
+        color: var(--desaturatedBlue);
+        background-color: var(--brightBlue);
+        font-family: 'Red Hat Display', sans-serif;
+        box-shadow: 0 15px 15px -10px var(--darkBlue);
+    }
+    .cancel {
+        width: 90%;
+        border: none;
+        opacity: 0.5;
+        margin: 1rem;
+        padding: 1rem;
+        display: block;
+        font-weight: 700;
+        border-radius: 1rem;
+        color: var(--darkBlue);
+        padding-bottom: 1.66rem;
+        background-color: var(--desaturatedBlue);
+        font-family: 'Red Hat Display', sans-serif;
+    }
+}
+
+/* Desktop Design */
+@media only screen and (min-width: 600px) {
+    body {
+        min-height: 100vh;
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: var(--paleBlue);
+        background-image: url(./images/pattern-background-desktop.svg);
+    }
+    .wrapper {
+        top: 50%;
+        left: 50%;
+        width: 355px;
+        padding: 10px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    .orderCard {
+        font-size: 16px;
+        border-radius: 1rem;
+        background-color: var(--desaturatedBlue);
+        font-family: 'Red Hat Display', sans-serif;
+        box-shadow: 0 15px 15px -10px var(--darkBlue);
+    }
+    .heroImage {
+        width: 100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .cardDescription {
+        padding: 0.5rem 1rem 0;
+    }
+    .title {
+        opacity: 0.95;
+        font-weight: 700;
+        text-align: center;
+        color: var(--darkBlue);
+    }
+    .description {
+        opacity: 0.5;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        color: var(--darkBlue);
+        padding: 0 1rem 0.45rem;
     }
     .orderPlan {
         margin: 1rem;
