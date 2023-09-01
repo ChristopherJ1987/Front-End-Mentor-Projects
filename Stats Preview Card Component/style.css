@@ -19,3 +19,13 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* Mobile Design */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Desktop Design */
+@media only screen and (min-width: 600px) {
+
+}
