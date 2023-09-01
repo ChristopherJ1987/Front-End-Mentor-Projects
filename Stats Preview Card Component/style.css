@@ -1,0 +1,21 @@
+/* 
+- Font size: 15px
+- font-family: 'Inter', sans-serif;
+- font-family: 'Lexend Deca', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+:root {
+    --softViolet/*accent*/: hsl(277, 64%, 61%);
+    --white/*mainHeadingAndStats*/: hsl(0, 0%, 100%);
+    --veryDarkBlue/*mainBackground*/: hsl(233, 47%, 7%);
+    --darkDesaturatedBlue/*cardBackground*/: hsl(244, 38%, 16%);
+    --slightlyTransparentWhite/*statsHeading*/: hsla(0, 0%, 100%, 0.6);
+    --slightlyTransparentWhite/*mainParagraph*/: hsla(0, 0%, 100%, 0.75);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
