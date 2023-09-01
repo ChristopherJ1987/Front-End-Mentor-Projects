@@ -91,7 +91,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful Resources
 
 - [W3Schools](https://www.w3schools.com/tags/tag_picture.asp) - Just a really nice reference for the how to use the picture tag in HTML.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-get-rid-of-the-gap-under-the-image/) - I found this to help me get rid of some white space under my picture tag, and it was literally just making the css selector display: block;.
+- [DEV](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio) - I was having a hard time figuring out what I needed to do about the overlay color, and this gave me an interesting way to approach the problem that I wasn't thinking of.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
