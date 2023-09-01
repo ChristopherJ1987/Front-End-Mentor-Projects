@@ -9,7 +9,7 @@
     --white/*mainHeadingAndStats*/: hsl(0, 0%, 100%);
     --veryDarkBlue/*mainBackground*/: hsl(233, 47%, 7%);
     --darkDesaturatedBlue/*cardBackground*/: hsl(244, 38%, 16%);
-    --slightlyTransparentWhiteHeading/*statsHeading*/: hsla(0, 0%, 100%, 0.75);
+    --slightlyTransparentWhiteHeading/*statsHeading*/: hsla(0, 0%, 100%, 0.9);
     --slightlyTransparentWhiteParagraph/*mainParagraph*/: hsla(0, 0%, 100%, 0.5);
 }
 .attribution {
@@ -52,8 +52,9 @@
         flex-direction: column;
     }
     .header {
-        margin-top: 2rem;
         font-weight: 700;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
         color: var(--slightlyTransparentWhiteHeading);
         font-family: 'Inter', sans-serif;
     }
