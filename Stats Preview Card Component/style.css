@@ -9,20 +9,86 @@
     --white/*mainHeadingAndStats*/: hsl(0, 0%, 100%);
     --veryDarkBlue/*mainBackground*/: hsl(233, 47%, 7%);
     --darkDesaturatedBlue/*cardBackground*/: hsl(244, 38%, 16%);
-    --slightlyTransparentWhite/*statsHeading*/: hsla(0, 0%, 100%, 0.6);
-    --slightlyTransparentWhite/*mainParagraph*/: hsla(0, 0%, 100%, 0.75);
+    --slightlyTransparentWhiteHeading/*statsHeading*/: hsla(0, 0%, 100%, 0.75);
+    --slightlyTransparentWhiteParagraph/*mainParagraph*/: hsla(0, 0%, 100%, 0.5);
 }
 .attribution {
+    padding: 1rem;
     font-size: 11px;
     text-align: center;
+    color: var(--slightlyTransparentWhiteParagraph);
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--softViolet);
 }
 
 /* Mobile Design */
 @media only screen and (max-width: 600px) {
-
+    html {
+        background-color: var(--veryDarkBlue);
+    }
+    .wrapper {
+        top: 60%;
+        left: 50%;
+        width: 300px;
+        position: absolute;
+        border-radius: 1rem;
+        transform: translate(-50%, -50%);
+    }
+    .card {
+        text-align: center;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        background-color: var(--darkDesaturatedBlue);
+    }
+    .cardImage img {
+        width: 100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .cardStats {
+        display: flex;
+        padding: 0 2rem 1rem;
+        flex-direction: column;
+    }
+    .header {
+        margin-top: 2rem;
+        font-weight: 700;
+        color: var(--slightlyTransparentWhiteHeading);
+        font-family: 'Inter', sans-serif;
+    }
+    .accent {
+        color: var(--softViolet);
+    }
+    .info {
+        margin: 0;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        color: var(--slightlyTransparentWhiteParagraph);
+    }
+    .statsCard {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0 0.25rem;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .stats > * {
+        margin: 0;
+        padding: 0;
+    }
+    .stats {
+        padding: 10px;
+    }
+    .numbers {
+        color: var(--slightlyTransparentWhiteHeading);
+    }
+    .description {
+        font-size: 11px;
+        margin-top: 5px;
+        text-transform: uppercase;
+        color: var(--slightlyTransparentWhiteParagraph);
+    }
 }
 
 /* Desktop Design */
