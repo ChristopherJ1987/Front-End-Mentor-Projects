@@ -110,12 +110,19 @@
         top: 50%;
         left: 50%;
         width: 80%;
+        display: flex;
+        min-width: 940px;
         position: absolute;
+        align-items: center;
         border-radius: 1rem;
+        flex-direction: column;
         transform: translate(-50%, -50%);
     }
     .card {
+        width: 100%;
         display: flex;
+        min-width: 777px;
+        max-width: 943px;
         text-align: center;
         border-radius: 1rem;
         flex-direction: row-reverse;
@@ -127,16 +134,18 @@
         background-color: var(--softViolet);
     }
     .cardImage img {
-        width: 444px;
         height: 100%;
         opacity: 0.538;
         display: block;
+        max-width: 444px;
+        max-height: 375px;
         border-top-right-radius: 1rem;
         border-bottom-right-radius: 1rem;
     }
     .cardStats {
         display: flex;
         padding: 3rem;
+        max-width: 444px;
         text-align: left;
         padding-right: 3rem;
         flex-direction: column;
