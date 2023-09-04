@@ -9,7 +9,7 @@ This is a solution to the [Stats Preview Card Component Challenge on Frontend Me
   - [Overview](#overview)
     - [The Challenge](#the-challenge)
     - [Screenshot](#screenshot)
-    - [Links \*\*\*\*\*\*](#links-)
+    - [Links](#links)
   - [My Process](#my-process)
     - [Built With](#built-with)
     - [What I Learned](#what-i-learned)
@@ -38,55 +38,65 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-### Links ******
+### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Stats Preview Card Project](https://transcendent-kitsune-6a71ee.netlify.app/stats%20preview%20card%20component/)
+- Live Site URL: [Front End Mentor Projects](https://transcendent-kitsune-6a71ee.netlify.app/)
 
 ## My Process
 
 ### Built With
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Semantic HTML5 Markup
+- CSS Custom Properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Mobile-First Workflow
 
 ### What I Learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+While I was working on this project I realized that even though I have more to learn, I have learned quite a bit of stuff already. There were a lot of aspects of this project that I already knew, but I just haven't used that much in other projects. This project is helping me to iron out some wrinkles I have had with using min and max widths while reminding me I know things that I didn't use to know, like reversing row directions to easily move elements.
 
-To see how you can add code snippets, see below:
-
+HTML:
+- the code snippet below uses the picture and source tags to use different images based on the applications screen size.
 ```html
-<h1>Some HTML code I'm proud of</h1>
+        <picture>
+          <source media="(max-width:600px)" srcset="./images/image-header-mobile.jpg">
+          <source media="(min-width:600px)" srcset="./images/image-header-desktop.jpg">
+          <img src="./images/image-header-mobile.jpg" alt="image header">
+        </picture>
 ```
+CSS:
+- the code snippet below is related to the card wrapper and card elements from the HTML, and it shows how display: flex; can be used with flex-direction to move the elements where you want within their parent element.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+    .wrapper {
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        display: flex;
+        min-width: 940px;
+        position: absolute;
+        align-items: center;
+        border-radius: 1rem;
+        flex-direction: column;
+        transform: translate(-50%, -50%);
+    }
+    .card {
+        width: 100%;
+        display: flex;
+        min-width: 777px;
+        max-width: 943px;
+        text-align: center;
+        border-radius: 1rem;
+        flex-direction: row-reverse;
+        background-color: var(--darkDesaturatedBlue);
+    }
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued Development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I still need to work on best practices when it comes to using min and max widths and heights. I haven't used them much before, but I tried using them more in this project and it is obvious that I need to practice more. 
 
 ### Useful Resources
 
@@ -94,18 +104,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-get-rid-of-the-gap-under-the-image/) - I found this to help me get rid of some white space under my picture tag, and it was literally just making the css selector display: block;.
 - [DEV](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio) - I was having a hard time figuring out what I needed to do about the overlay color, and this gave me an interesting way to approach the problem that I wasn't thinking of.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Portfolio - [Christopher J](https://clever-sunburst-739be9.netlify.app/)
+- Frontend Mentor Profile - [@ChristopherJ1987](https://www.frontendmentor.io/profile/ChristopherJ1987)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I want to thank whoever created Front End Mentor, and Chris Thompson who was my teacher at the Coding Dojo in Dallas.
