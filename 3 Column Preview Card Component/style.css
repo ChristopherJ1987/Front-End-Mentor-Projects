@@ -14,6 +14,7 @@ font-family: 'Lexend Deca', sans-serif;
 Weights: 400
 */
 .attribution {
+    padding: 2rem;
     font-size: 11px;
     text-align: center;
 }
@@ -31,7 +32,7 @@ Weights: 400
         background-color: var(--veryLightGrayBackgroundHeadingsButtons);
     }
     .wrapper {
-        top: 50%;
+        top: 66%;
         left: 50%;
         padding: 1rem;
         min-width: 300px;
@@ -39,19 +40,58 @@ Weights: 400
         position: absolute;
         transform: translate(-50%, -50%);
     }
-    .cardContainer{
-        padding: 1rem;
-    }
     .card {
-        padding: 1rem;
+        padding: 2.5rem;
+    }
+    .cardImage {
+        max-height: 2rem;
     }
     .cardHeader {
+        margin: 1rem 0;
         font-weight: 700;
         text-transform: uppercase;
         font-family: 'Big Shoulders Display', cursive;
+        color: var(--veryLightGrayBackgroundHeadingsButtons);
     }
-    .cardDescription ~ .cardButton {
+    .cardDescription {
+        opacity: 0.75;
+        font-size: 11px;
         font-weight: 400;
+        line-height: 1.25rem;
         font-family: 'Lexend Deca', sans-serif;
+        color: var(--veryLightGrayBackgroundHeadingsButtons);
+    }
+    .cardButton {
+        padding: 1rem;
+        display: block;
+        max-width: 125px;
+        margin-top: 25px;
+        font-weight: 400;
+        border-radius: 50px;
+        text-decoration: none;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: var(--veryLightGrayBackgroundHeadingsButtons);
+    }
+    .card:nth-child(1) {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        background-color: var(--brightOrange);
+    }
+    .card:nth-child(2) {
+        background-color: var(--darkCyan);
+    }
+    .card:nth-child(3) {
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        background-color: var(--veryDarkCyan);
+    }
+    #sedanButton {
+        color: var(--brightOrange);
+    }
+    #suvButton {
+        color: var(--darkCyan);
+    }
+    #luxuryButton {
+        color: var(--veryDarkCyan);
     }
 }
