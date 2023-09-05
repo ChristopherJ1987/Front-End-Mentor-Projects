@@ -20,3 +20,38 @@ Weights: 400
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+/* Mobile Version */
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        background-color: var(--veryLightGrayBackgroundHeadingsButtons);
+    }
+    .wrapper {
+        top: 50%;
+        left: 50%;
+        padding: 1rem;
+        min-width: 300px;
+        max-width: 375px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    .cardContainer{
+        padding: 1rem;
+    }
+    .card {
+        padding: 1rem;
+    }
+    .cardHeader {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    .cardDescription ~ .cardButton {
+        font-weight: 400;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+}
