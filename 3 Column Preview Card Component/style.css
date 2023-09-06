@@ -32,8 +32,8 @@ Weights: 400
         background-color: var(--veryLightGrayBackgroundHeadingsButtons);
     }
     .wrapper {
-        top: 66%;
-        left: 50%;
+        top: 70%;
+        left: 55%;
         padding: 1rem;
         min-width: 300px;
         max-width: 375px;
@@ -58,6 +58,7 @@ Weights: 400
         font-size: 11px;
         font-weight: 400;
         line-height: 1.25rem;
+        margin-bottom: 2.75rem;
         font-family: 'Lexend Deca', sans-serif;
         color: var(--veryLightGrayBackgroundHeadingsButtons);
     }
@@ -82,6 +83,91 @@ Weights: 400
     }
     .card:nth-child(3) {
         border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        background-color: var(--veryDarkCyan);
+    }
+    #sedanButton {
+        color: var(--brightOrange);
+    }
+    #suvButton {
+        color: var(--darkCyan);
+    }
+    #luxuryButton {
+        color: var(--veryDarkCyan);
+    }
+}
+
+/* Desktop Version */
+@media only screen and (min-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        background-color: var(--veryLightGrayBackgroundHeadingsButtons);
+    }
+    .wrapper {
+        top: 50%;
+        left: 50%;
+        display: flex;
+        padding: 1rem;
+        min-width: 777px;
+        max-width: 999px;
+        min-height: 444px;
+        position: absolute;
+        flex-direction: column;
+        transform: translate(-50%, -50%);
+    }
+    .cardContainer {
+        display: flex;
+        min-height: 444px;
+        max-height: 777px;
+        flex-direction: row;
+    }
+    .card {
+        padding: 2.5rem 2.5rem 1rem;
+    }
+    .cardImage {
+        max-height: 3.25rem;
+    }
+    .cardHeader {
+        margin: 1.5rem 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'Big Shoulders Display', cursive;
+        color: var(--veryLightGrayBackgroundHeadingsButtons);
+    }
+    .cardDescription {
+        opacity: 0.75;
+        font-weight: 400;
+        font-size: 12.2px;
+        line-height: 1.5rem;
+        margin-bottom: 2.75rem;
+        font-family: 'Lexend Deca', sans-serif;
+        color: var(--veryLightGrayBackgroundHeadingsButtons);
+    }
+    .cardButton {
+        padding: 1rem;
+        display: block;
+        max-width: 125px;
+        margin-top: 25px;
+        font-weight: 400;
+        border-radius: 50px;
+        text-decoration: none;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: var(--veryLightGrayBackgroundHeadingsButtons);
+    }
+    .card:nth-child(1) {
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        background-color: var(--brightOrange);
+    }
+    .card:nth-child(2) {
+        background-color: var(--darkCyan);
+    }
+    .card:nth-child(3) {
+        border-top-right-radius: 0.5rem;
         border-bottom-right-radius: 0.5rem;
         background-color: var(--veryDarkCyan);
     }
