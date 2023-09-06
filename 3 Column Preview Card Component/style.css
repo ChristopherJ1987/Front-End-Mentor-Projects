@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 :root {
     --darkCyan: hsl(184, 100%, 22%);
     --brightOrange: hsl(31, 77%, 52%);
@@ -6,13 +7,6 @@
     --transparentWhiteParagraphs: hsla(0, 5, 100%, 0.75);
     --veryLightGrayBackgroundHeadingsButtons: hsl(0, 0%, 95%);
 }
-/* 
-Font size: 15px
-font-family: 'Big Shoulders Display', cursive;
-Weights: 700
-font-family: 'Lexend Deca', sans-serif;
-Weights: 400
-*/
 .attribution {
     padding: 2rem;
     font-size: 11px;
@@ -21,6 +15,7 @@ Weights: 400
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
 /* Mobile Version */
 @media only screen and (max-width: 600px) {
     * {
