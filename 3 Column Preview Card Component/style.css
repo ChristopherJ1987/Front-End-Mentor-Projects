@@ -169,10 +169,25 @@
     #sedanButton {
         color: var(--brightOrange);
     }
+    #sedanButton:hover {
+        background-color: var(--brightOrange);
+        color: var(--veryLightGrayBackgroundHeadingsButtons);
+        border: 1px solid var(--veryLightGrayBackgroundHeadingsButtons);
+    }
     #suvButton {
         color: var(--darkCyan);
     }
+    #suvButton:hover {
+        background-color: var(--darkCyan);
+        color: var(--veryLightGrayBackgroundHeadingsButtons);
+        border: 1px solid var(--veryLightGrayBackgroundHeadingsButtons);
+    }
     #luxuryButton {
         color: var(--veryDarkCyan);
+    }
+    #luxuryButton:hover {
+        background-color: var(--veryDarkCyan);
+        color: var(--veryLightGrayBackgroundHeadingsButtons);
+        border: 1px solid var(--veryLightGrayBackgroundHeadingsButtons);
     }
 }
