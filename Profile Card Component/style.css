@@ -1,7 +1,24 @@
+/* 
+- Font size (name and stats): 18px
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+
+- Weights: 400, 700
+
+font-family: 'Kumbh Sans', sans-serif;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root {
+    --darkGray: hsl(0, 0%, 59%);
+    --darkCyan: hsl(185, 75%, 39%);
+    --darkGrayishBlue: hsl(227, 10%, 46%);
+    --veryDarkSaturatedBlue: hsl(229, 23%, 23%);
+}
 .attribution {
     font-size: 11px;
     text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--veryDarkSaturatedBlue);
 }
