@@ -22,3 +22,27 @@ font-family: 'Kumbh Sans', sans-serif;
 .attribution a {
     color: var(--veryDarkSaturatedBlue);
 }
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html {
+        background-color: var(--darkCyan);
+    }
+    .backgroundTopImage {
+        top: 0;
+        left: 0;
+        position: absolute;
+        transform: translate(-69%, -58%);
+        background: url(./images/bg-pattern-top.svg);
+    }
+    .backgroundBottomImage {
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        transform: translate(67%, 49%);
+        background: url(./images/bg-pattern-bottom.svg);
+    }
+}
