@@ -16,24 +16,23 @@ font-family: 'Kumbh Sans', sans-serif;
     --veryDarkSaturatedBlue: hsl(229, 23%, 23%);
 }
 .attribution {
+    padding: 2rem;
     font-size: 11px;
     text-align: center;
+    color: var(--veryDarkSaturatedBlue);
 }
 .attribution a {
-    color: var(--veryDarkSaturatedBlue);
+    color: whitesmoke;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
-    * {
-        margin: 0;
-        box-sizing: border-box;
-    }
     html {
         background-color: var(--darkCyan);
     }
     .backgroundTopImage {
         top: 0;
         left: 0;
+        z-index: -5;
         position: absolute;
         transform: translate(-69%, -58%);
         background: url(./images/bg-pattern-top.svg);
@@ -41,8 +40,46 @@ font-family: 'Kumbh Sans', sans-serif;
     .backgroundBottomImage {
         right: 0;
         bottom: 0;
+        z-index: -5;
         position: absolute;
         transform: translate(67%, 49%);
         background: url(./images/bg-pattern-bottom.svg);
+    }
+    .profileCardWrapper {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profileBanner {
+        width: 100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .profileImage {
+        text-align: center;
+    }
+    .profileImage img {
+        top: 28.25%;
+        left: 37.75%;
+        width: auto;
+        height: 133px;
+        position: absolute;
+        border-radius: 50%;
+        border: 6px solid whitesmoke;
+}
+    .profileCard {
+        min-width: 400px;
+        min-height: 525px;
+        border-radius: 1rem;
+        background-color: whitesmoke;
+    }
+    .profileInfo {
+        display: flex;
+        margin-top: 64px;
     }
 }
