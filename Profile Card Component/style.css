@@ -81,5 +81,9 @@ font-family: 'Kumbh Sans', sans-serif;
     .profileInfo {
         display: flex;
         margin-top: 64px;
+        justify-content: center;
+    }
+    .profileNameAge {
+        text-align: center;
     }
 }
