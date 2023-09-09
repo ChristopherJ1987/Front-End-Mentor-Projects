@@ -54,6 +54,7 @@ font-family: 'Kumbh Sans', sans-serif;
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        font-family: 'Kumbh Sans', sans-serif;
     }
     .profileBanner {
         width: 100%;
@@ -65,7 +66,7 @@ font-family: 'Kumbh Sans', sans-serif;
     }
     .profileImage img {
         top: 28.25%;
-        left: 37.75%;
+        left: 39.5%;
         width: auto;
         height: 133px;
         position: absolute;
@@ -84,6 +85,23 @@ font-family: 'Kumbh Sans', sans-serif;
         justify-content: center;
     }
     .profileNameAge {
+        text-align: center;
+    }
+    .name {
+        display: inline-block;
+    }
+    .age {
+        font-weight: 400;
+        margin-left: 15px;
+        display: inline-block;
+        color: var(--darkGray);
+    }
+    .profileLocation {
+        font-weight: 400;
+        color: var(--darkGray);
+    }
+    .location {
+        margin: 0 0 50px;
         text-align: center;
     }
 }
