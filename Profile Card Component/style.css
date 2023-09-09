@@ -75,13 +75,13 @@ font-family: 'Kumbh Sans', sans-serif;
 }
     .profileCard {
         min-width: 400px;
-        min-height: 525px;
+        min-height: 500px;
         border-radius: 1rem;
         background-color: whitesmoke;
     }
     .profileInfo {
         display: flex;
-        margin-top: 66px;
+        margin-top: 50px;
         flex-direction: column;
         justify-content: center;
     }
@@ -89,10 +89,12 @@ font-family: 'Kumbh Sans', sans-serif;
         text-align: center;
     }
     .name {
+        margin-top: 33px;
         display: inline-block;
     }
     .age {
         font-weight: 400;
+        margin-top: 33px;
         margin-left: 15px;
         display: inline-block;
         color: var(--darkGray);
@@ -107,13 +109,14 @@ font-family: 'Kumbh Sans', sans-serif;
     }
     .profileInfo hr {
         border: 0;
-        margin: 30px 0px 20px;
+        margin: 15px 0px 20px;
         border-top: 1px solid var(--darkGray);
     }
     .profileStats {
-        width: 75%;
+        width: 100%;
         display: flex;
+        margin-top: 25px;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
