@@ -119,4 +119,18 @@ font-family: 'Kumbh Sans', sans-serif;
         flex-direction: row;
         justify-content: space-around;
     }
+    .profileStats > * {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .stat {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .statDescription {
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--darkGray);
+    }
 }
