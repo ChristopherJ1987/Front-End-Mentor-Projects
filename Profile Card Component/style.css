@@ -38,7 +38,7 @@
     .profileCardWrapper {
         margin: 0;
         padding: 0;
-        width: 100vw;
+        width: 95vw;
         height: 100vh;
         display: flex;
         align-items: center;
@@ -55,8 +55,8 @@
         text-align: center;
     }
     .profileImage img {
-        top: 28.25%;
-        left: 39.5%;
+        top: 29%;
+        left: 35%;
         width: auto;
         height: 133px;
         position: absolute;
