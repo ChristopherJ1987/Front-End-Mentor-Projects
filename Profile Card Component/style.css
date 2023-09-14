@@ -136,7 +136,7 @@
         left: 0;
         z-index: -5;
         position: absolute;
-        transform: translate(-69%, -58%);
+        transform: translate(-30%, -50%);
         background: url(./images/bg-pattern-top.svg);
     }
     .backgroundBottomImage {
@@ -144,13 +144,13 @@
         bottom: 0;
         z-index: -5;
         position: absolute;
-        transform: translate(67%, 49%);
+        transform: translate(20%, 60%);
         background: url(./images/bg-pattern-bottom.svg);
     }
     .profileCardWrapper {
         margin: 0;
         padding: 0;
-        width: 95vw;
+        width: 100vw;
         height: 100vh;
         display: flex;
         align-items: center;
@@ -168,7 +168,7 @@
     }
     .profileImage img {
         top: 29%;
-        left: 35%;
+        left: 45.5%;
         width: auto;
         height: 133px;
         position: absolute;
