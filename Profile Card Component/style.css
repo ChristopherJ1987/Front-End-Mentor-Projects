@@ -144,7 +144,7 @@
         bottom: 0;
         z-index: -5;
         position: absolute;
-        transform: translate(20%, 60%);
+        transform: translate(20%, 65%);
         background: url(./images/bg-pattern-bottom.svg);
     }
     .profileCardWrapper {
@@ -167,8 +167,8 @@
         text-align: center;
     }
     .profileImage img {
-        top: 29%;
-        left: 45.5%;
+        top: 30%;
+        left: 46.5%;
         width: auto;
         height: 133px;
         position: absolute;
@@ -176,8 +176,8 @@
         border: 6px solid whitesmoke;
 }
     .profileCard {
-        min-width: 400px;
-        min-height: 500px;
+        min-width: 500px;
+        min-height: 550px;
         border-radius: 1rem;
         background-color: whitesmoke;
     }
