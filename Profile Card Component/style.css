@@ -15,7 +15,119 @@
     color: whitesmoke;
 }
 
+/* Mobile Version */
 @media only screen and (max-width: 600px) {
+    html {
+        background-color: var(--darkCyan);
+    }
+    .backgroundTopImage {
+        top: 0;
+        left: 0;
+        z-index: -5;
+        position: absolute;
+        transform: translate(-69%, -58%);
+        background: url(./images/bg-pattern-top.svg);
+    }
+    .backgroundBottomImage {
+        right: 0;
+        bottom: 0;
+        z-index: -5;
+        position: absolute;
+        transform: translate(67%, 49%);
+        background: url(./images/bg-pattern-bottom.svg);
+    }
+    .profileCardWrapper {
+        margin: 0;
+        padding: 0;
+        width: 95vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+    .profileBanner {
+        width: 100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .profileImage {
+        text-align: center;
+    }
+    .profileImage img {
+        top: 29%;
+        left: 35%;
+        width: auto;
+        height: 133px;
+        position: absolute;
+        border-radius: 50%;
+        border: 6px solid whitesmoke;
+}
+    .profileCard {
+        min-width: 400px;
+        min-height: 500px;
+        border-radius: 1rem;
+        background-color: whitesmoke;
+    }
+    .profileInfo {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profileNameAge {
+        text-align: center;
+    }
+    .name {
+        margin-top: 33px;
+        display: inline-block;
+    }
+    .age {
+        font-weight: 400;
+        margin-top: 33px;
+        margin-left: 15px;
+        display: inline-block;
+        color: var(--darkGray);
+    }
+    .profileLocation {
+        font-weight: 400;
+        color: var(--darkGray);
+    }
+    .location {
+        margin: 0 0 33px;
+        text-align: center;
+    }
+    .profileInfo hr {
+        border: 0;
+        margin: 15px 0px 20px;
+        border-top: 1px solid var(--darkGray);
+    }
+    .profileStats {
+        width: 100%;
+        display: flex;
+        margin-top: 25px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .profileStats > * {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .stat {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .statDescription {
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--darkGray);
+    }
+}
+
+/* Desktop Version */
+@media only screen and (min-width: 600px) {
     html {
         background-color: var(--darkCyan);
     }
