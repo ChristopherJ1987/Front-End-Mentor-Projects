@@ -31,3 +31,13 @@ We provide SVGs for the social icons. But please feel free to use a font icon li
 - [IcoMoon](https://icomoon.io)
 - [Ionicons](https://ionicons.com) 
 */
+
+/* Mobile Version */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Desktop Version */
+@media only screen and (min-width: 600px) {
+    
+}
