@@ -34,10 +34,21 @@ We provide SVGs for the social icons. But please feel free to use a font icon li
 
 /* Mobile Version */
 @media only screen and (max-width: 600px) {
-
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .article {
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .articleImage {
+        width: 100%;
+    }
 }
 
 /* Desktop Version */
 @media only screen and (min-width: 600px) {
-    
+
 }
