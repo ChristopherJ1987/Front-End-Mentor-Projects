@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
 
 :root {
-    --grayishBlue: hsl(212, 23%, 69%);
+    --grayishBlue: hsl(212, 23%, 88%);
     --lightGrayishBlue: hsl(210, 46%, 95%);
     --desaturatedDarkBlue: hsl(214, 17%, 51%);
     --veryDarkGrayishBlue: hsl(217, 19%, 35%);
@@ -36,20 +36,23 @@ We provide SVGs for the social icons. But please feel free to use a font icon li
 /* Mobile Version */
 @media only screen and (max-width: 600px) {
     body {
+        margin: 0;
+        padding: 0;
         font-family: 'Manrope', sans-serif;
+        background-color: var(--grayishBlue);
     }
     .wrapper {
         display: flex;
         align-items: center;
+        padding: 5rem 0 4rem;
         flex-direction: column;
-        padding: 4rem 0 4rem;
     }
     .article {
         width: 90vw;
         display: flex;
+        border-radius: 1rem;
         flex-direction: column;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
+        background-color: var(--lightGrayishBlue);
     }
     .articleImage {
         width: 100%;
