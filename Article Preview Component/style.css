@@ -66,9 +66,11 @@ We provide SVGs for the social icons. But please feel free to use a font icon li
     }
     .articleHeader {
         font-size: 18px;
+        color: var(--veryDarkGrayishBlue);
     }
     .articleDescription {
         font-size: 14.2px;
+        color: var(--desaturatedDarkBlue);
     }
     .authorDateShare {
         display: flex;
