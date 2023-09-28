@@ -75,6 +75,11 @@ We provide SVGs for the social icons. But please feel free to use a font icon li
     .authorDateShare {
         display: flex;
     }
+    .authorImage {
+        display: flex;
+        max-height: 50px;
+        border-radius: 50%;
+    }
 }
 
 /* Desktop Version */
