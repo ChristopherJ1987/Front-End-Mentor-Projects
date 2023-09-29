@@ -70,15 +70,36 @@ We provide SVGs for the social icons. But please feel free to use a font icon li
     }
     .articleDescription {
         font-size: 14.2px;
+        margin-bottom: 1.5rem;
         color: var(--desaturatedDarkBlue);
     }
     .authorDateShare {
         display: flex;
+        align-items: center;
     }
     .authorImage {
         display: flex;
         max-height: 50px;
         border-radius: 50%;
+    }
+    .author {
+        margin: 0;
+        font-size: 14px;
+        margin-left: 0.8125rem;
+        color: var(--veryDarkGrayishBlue);
+    }
+    .date {
+        margin: 0;
+        font-size: 13px;
+        margin-left: 0.8125rem;
+        color: var(--desaturatedDarkBlue);
+    }
+    .shareImage {
+        padding: 0.5rem;
+        min-height: 18px;
+        margin-left: 4rem;
+        border-radius: 50%;
+        background-color: var(--grayishBlue);
     }
 }
 
